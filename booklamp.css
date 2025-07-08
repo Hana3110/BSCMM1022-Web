@@ -1,0 +1,182 @@
+@charset "utf-8";
+.container-fluid .container .text-justify {
+    background-image: -webkit-linear-gradient(270deg,rgba(227,227,227,1.00) 0%,rgba(237,237,237,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(227,227,227,1.00) 0%,rgba(237,237,237,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(227,227,227,1.00) 0%,rgba(237,237,237,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(227,227,227,1.00) 0%,rgba(237,237,237,1.00) 100.00%);
+    color: #62626;
+    font-size: small;
+    text-shadow: 0pt 0px;
+}
+.service-box {
+  display: block;
+  border: 1px solid maroon;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f9f9f9;
+  color: #015DBA;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.service-box:hover {
+  background-color: #3B60D3;
+  color: white;
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+
+/* Navbar link style */
+.navbar-nav .nav-link {
+  color: maroon !important;
+  font-size: large;
+  font-family: 'Segoe UI', Segoe, Verdana, sans-serif;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect: underline slide in */
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #005DB6;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Optional: change color on hover */
+.navbar-nav .nav-link:hover {
+  color: black !important; /* Darker maroon */
+}
+
+
+
+.top-bar {
+  background-color: #0053A4; 
+  color: white;
+  text-align: center;       
+  padding: 6.5px 0;           
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 16px;          
+  font-weight: 600;        
+  letter-spacing: 0.5px;
+	border-bottom: 5px solid black;
+}
+.text-center {
+  text-align: center;
+}
+
+.card.col-md-4.col-lg-12 .card-body .card-text.text-left {
+    font-size: small;
+}
+.card.col-md-4.col-lg-12 .card-body .card-text {
+    font-size: small;
+}
+
+
+.col-lg-6 p a {
+    color: #EAF6FF;
+}
+
+footer .row .col-lg-6 {
+    color: #FFFFFF;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: black;
+    font-size: large;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+.card.col-md-4.col-lg-12 .card-body .btn.btn-primary {
+    background-color: #000000;
+    color: #ECCE00;
+}
+#accordion1 .card #headingOne1 {
+    background-color: #000000;
+}
+#accordion1 .card #headingTwo1 {
+    background-color: #000000;
+}
+#accordion1 .card #headingThree1 {
+    background-color: #000000;
+}
+#headingOne1 .mb-0 a {
+    color: #DAC800;
+}
+#headingTwo1 .mb-0 .collapsed {
+    color: #DAC800;
+}
+#headingThree1 .mb-0 .collapsed {
+    color: #DAC800;
+}
+.row .col-lg-3 .text-center {
+    color: #FFFFFF;
+}
+.col-lg-3 p a {
+    color: #DABE00;
+}
+.row .col-lg-3 .text-left {
+    color: #FEFEFE;
+}
+.row .offset-lg-0.col-lg-4 .text-right {
+    color: #FFFFFF;
+}
+.offset-lg-0.col-lg-4 .text-right a {
+}
+h4 strong a {
+    color: #28C0CA;
+}
+
+.container-fluid .container h4 {
+    color: #00A29F;
+}
+.offset-lg-0.col-lg-4 .text-right a {
+    color: #D8BC00;
+}
+.container-fluid .container p {
+}
+.container ul li {
+}
+
+
+
+.card-body .card-title a {
+    color: #00A480;
+}
+.card.col-md-4.col-lg-12 .card-body .card-title {
+    color: #AF0002;
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-image: -webkit-linear-gradient(270deg,rgba(245,245,220,1.00) 0%,rgba(245,245,220,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(245,245,220,1.00) 0%,rgba(245,245,220,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(245,245,220,1.00) 0%,rgba(245,245,220,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(245,245,220,1.00) 0%,rgba(245,245,220,1.00) 100%);
+}
+.container-fluid {
+}
+.container-fluid .container .row {
+}
+body footer div {
+    background-image: -webkit-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(34,34,34,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(34,34,34,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(34,34,34,1.00) 0%,rgba(34,34,34,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(34,34,34,1.00) 0%,rgba(34,34,34,1.00) 100.00%);
+}
